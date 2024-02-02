@@ -40,3 +40,22 @@ nav a {
     padding: 10px 0;
 }
 }
+
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ma-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-items ul {
+    list-style: none;
+}
+
+
