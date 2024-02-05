@@ -15,6 +15,49 @@ header {
     padding: 10px;
 }
 
+
+.super-container {
+    background-color: #C2D345; 
+    padding: 20px; 
+}
+
+.super-container h2
+{
+    margin: 0;
+    text-align: center;
+}
+
+.integrantes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.integrante-row {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.integrante-row img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .integrantes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .integrantes-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 .logotipo {
     display: flex;
     align-items: center;
