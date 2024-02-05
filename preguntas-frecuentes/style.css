@@ -90,3 +90,14 @@ footer {
     }
 }
 
+.accordion-button {
+    background-color: #D39D2F; /* Puedes cambiar este color al que prefieras */
+    color: #fff; }/* Cambia el color del texto para que sea legible en el fondo */
+
+.accordion-button[aria-expanded="true"] {
+        background-color: #EDB748; /* Puedes cambiar este color al que prefieras */
+    }
+
+    .accordion-body {
+        color: #7E6634; /* Cambia el color del texto para que sea legible en el fondo */
+    }
