@@ -94,6 +94,14 @@ footer {
     background-color: #C2D345; 
     padding: 20px; 
 }
+
+.super-container h2
+{
+    margin: 0;
+    text-align: center;
+}
+
+
 .subtitulo
 {
     display: flex;
