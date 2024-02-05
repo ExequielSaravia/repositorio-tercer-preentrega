@@ -1,6 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Lucida Grande';
     margin: 0;
+    
 }
 
 a {
@@ -90,4 +91,44 @@ footer {
     }
 }
 
+section{
+    background-color: #faac58;
+}
+h2 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.product-container { 
+    
+    display: grid;
+    flex-wrap: wrap;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
 
+.grid-produc {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.grid-produc img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel {
+    background-color: #faac58;
+    padding: 10px;
+    border: 2px solid brown ;
+}
+
+.ofertas {
+    display: flex;
+    justify-content: center;
+    background-color: #faac58;
+}
