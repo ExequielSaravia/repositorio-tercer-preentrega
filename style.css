@@ -90,7 +90,17 @@ footer {
     }
 }
 
-
+.super-container {
+    background-color: #C2D345; 
+    padding: 20px; 
+}
+.subtitulo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
 .product-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -108,3 +118,8 @@ footer {
     height: auto;
   }
   
+  @media (max-width: 600px) {
+    .product-container {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}
