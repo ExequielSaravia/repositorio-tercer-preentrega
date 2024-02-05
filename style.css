@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     min-height: 70px;
-    background-color: goldenrod;
+    background-color: #d39329;
     align-items: center;
     padding: 10px;
 }
@@ -25,12 +25,19 @@ header {
     margin-right: 10px;
 }
 
+.nombre-empresa {
+color: black;
+}
+.nav-links {
+color: black;
+}
+
 nav a {
     font-weight: 600;
     padding-right: 10px;
 }
 
-@media (max-width:700px){
+@media (max-width:600px){
 
     header {
         flex-direction: column;
@@ -41,8 +48,12 @@ nav a {
 }
 }
 
-
+footer {
+    background-color: #d39329;
+}
 .container {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     width: 50%;
     display: grid;
@@ -56,6 +67,27 @@ nav a {
 
 .grid-items ul {
     list-style: none;
+    padding: 0;
+}
+
+.grid-items a {
+    color: black;
+}
+
+.grid-items {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 
